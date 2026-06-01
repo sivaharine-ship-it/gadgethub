@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #dab1da;
+    color:black;
+    padding: 20px;
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    margin-left: 65% ;
+}
+li{
+    color:white;
+    cursor: pointer;
+
+}
+li:hover{
+    color: black;
+    background-color: white;
+}
+input{
+    width: 1000px;
+    padding: 10px;
+    margin: 20px;
+}
+.searchbar{
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #dab1da;
+}
+.box{
+    border: 10px solid purple;
+    display: inline-block;
+    width: 225px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+    background-color: #dab1da;
+
+}
+.box:hover{
+    background-color: black;
+    color: white;
+
+}
+.about{
+    background-color: #dab1da;
+}
+.contact{
+    background-color: #dab1da;
+    padding: 20px;
+    text-align: center;
+    margin top: 20px;
+}
